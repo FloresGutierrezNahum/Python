@@ -8,6 +8,6 @@ pip install djangorestframework
 **2. Crear proyecto**  
 django-admin.exe startproject djapi  
 
-**3. Crear aplicación
-
+**3. Crear aplicación**  
+python manage.py startapp api  
 
