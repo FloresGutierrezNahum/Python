@@ -12,11 +12,7 @@ cd tutorial
 django-admin startapp quickstart  
 
 
-
-
-
-**x. Crear aplicación**  
-python manage.py startapp api  
+**x. Migrations**  
 python manage.py makemigrations  
 python manage.py migrate  
 
