@@ -1,0 +1,27 @@
+# Python
+Documenación de Django Rest Framework  
+https://www.django-rest-framework.org/tutorial/quickstart/  
+
+**1. Librerias**  
+pip install django  
+pip install djangorestframework  
+
+**2. Crear proyecto**  
+django-admin startproject tutorial  
+cd tutorial
+django-admin startapp quickstart  
+
+
+
+
+
+**x. Crear aplicación**  
+python manage.py startapp api  
+python manage.py makemigrations  
+python manage.py migrate  
+
+**X. Creación de superUsuario**  
+python manage.py createsuperuser 
+
+**X. Correr servidor**  
+python manage.py runserver

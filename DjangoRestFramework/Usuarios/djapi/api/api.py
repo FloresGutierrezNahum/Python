@@ -1,4 +1,4 @@
-#Sirve como un view.py cuando se usaba django
+#Sirve como un views.py cuando se usaba django
 #Funciona como el enlace que recive la información, captura la petición y la envía al serializador
 #El serializador crea procesa la petición y devuelve la creación para que el api.py pueda responder
 
