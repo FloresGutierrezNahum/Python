@@ -11,3 +11,12 @@ django-admin.exe startproject djapi
 **3. Crear aplicación**  
 python manage.py startapp api  
 
+python manage.py makemigrations  
+
+python manage.py migrate  
+
+**X. Creación de superUsuario**  
+python manage.py createsuperuser 
+
+**X. Correr servidor**  
+python manage.py runserver

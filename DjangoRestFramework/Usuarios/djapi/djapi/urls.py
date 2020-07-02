@@ -12,10 +12,15 @@ Class-based views
 Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
+
+
+No olvidar el .as_view() xq es una vista basada en clase
 """
 from django.contrib import admin
 from django.urls import path
+from api.api import UserAPI
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api/1.0/create_user/',UserAPI.as_view(), name = 'api_create_user'), 
 ]
