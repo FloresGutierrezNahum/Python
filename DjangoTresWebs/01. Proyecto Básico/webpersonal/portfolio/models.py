@@ -7,14 +7,17 @@ from django.db import models
 
 #Se crea un tabla
 class Project(models.Model):
-    title = models.CharField(max_length=200)
-    description = models.TextField()
-    image = models.ImageField()
-    created = models.DateTimeField(auto_now_add=True)   #Se agrega al crear
-    updated = models.DateTimeField(auto_now=True)       #Cambia con cada modificación
+    title = models.CharField(max_length=200, verbose_name="Titulo")
+    description = models.TextField(verbose_name="Descripción")
+    image = models.ImageField(verbose_name="Imagen", upload_to="projects") #Guarda las imagenes media en el directorio projects
+    created = models.DateTimeField(auto_now_add=True, verbose_name="Fecha de creación")   #Se agrega al crear
+    updated = models.DateTimeField(auto_now=True, verbose_name="Fecha de edición")       #Cambia con cada modificación
 
     class Meta:         
         #Subclase con los metadatos
         verbose_name = 'proyecto'
         verbose_name_plural = 'proyectos'
         ordering = ['-created'] #Se ordena por fecha de creación (-) :desc
+
+    def __str__(self):
+        return self.title
