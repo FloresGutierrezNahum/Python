@@ -45,3 +45,6 @@ como registros de forma automática y cuando las recuperemos y modifiquemos, los
 base de datos (**en django estos objetos persistentes son llamados modelos**).   
   
 - Para usar los modelos creados importar el modelo en **admin.py** de la aplicación  
+  
+- Al traducir una app se extiende la aplicación en "INSTALLED_APPS" **services ->  services.apps.ServicesConfig**  
+
