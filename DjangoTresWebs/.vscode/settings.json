@@ -1,0 +1,7 @@
+{
+    "python.linting.pylintArgs": [
+        "--erros-only",
+        "--load-plugins",
+        "pylint_django"
+    ]
+}
