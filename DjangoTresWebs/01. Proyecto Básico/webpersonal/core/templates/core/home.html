@@ -2,11 +2,8 @@
 
 {%block title%} Portada {% endblock %}
 
-{% block background %}
-    <!--Antes se tiene que cargar static-->
-    {% load static %}
-    {% static 'core/img/home-bg.jpg' %}
-{% endblock %}
+<!--Antes se tiene que cargar static | para evitar el error de imagen todo en una linea-->
+{% block background %}{% load static %}{% static 'core/img/home-bg.jpg' %}{% endblock %}
 
 {% block headers %}
 <h1>Juan Pérez</h1>
@@ -16,8 +13,9 @@
 
 {%block content%}
 
+<!--
 <h2>Portada</h2>
 <p>Esto es la portada</p>
-
+-->
 {% endblock %}
 
