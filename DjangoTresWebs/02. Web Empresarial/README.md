@@ -1,4 +1,4 @@
-# Proyecto 1 - WebPersonal  
+# Proyecto 2 - WebEmpresa  
 https://www.udemy.com/course/curso-django-2-practico-desarrollo-web-python-3/learn/lecture/9616016#questions
 
 **1. Librerias**  
@@ -7,11 +7,10 @@ pip install pylint
 pip install pillow
 
 **2. Crear proyecto**  
-django-admin startproject webpersonal  
+django-admin startproject webempresa  
 django-admin startapp quickstart   
 
-python manage.py startapp core  
-python manage.py startapp portfolio   
+python manage.py startapp core     
   
 python manage.py makemigrations portfolio **(verificar cambios en una app)**  
 python manage.py migrate portfolio **(aplicar cambios de una app)**  
