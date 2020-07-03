@@ -15,7 +15,7 @@ class Category(models.Model):
         ordering = ['-created'] #Se ordena por fecha de creación (-) :desc
 
     def __str__(self):
-        return self.title
+        return self.name
 
 class Post(models.Model):
     title      = models.CharField(max_length=200, verbose_name="Titulo")
