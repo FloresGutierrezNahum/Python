@@ -16,8 +16,8 @@ django-admin startapp quickstart
 python manage.py makemigrations  
 python manage.py migrate  
 
-**X. Creación de superUsuario**  
+**x. Creación de superUsuario**  
 python manage.py createsuperuser 
 
-**X. Correr servidor**  
+**x. Correr servidor**  
 python manage.py runserver
