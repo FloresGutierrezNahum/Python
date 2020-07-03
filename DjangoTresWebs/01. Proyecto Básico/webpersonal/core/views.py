@@ -1,3 +1,7 @@
+#Se definen las vistas de una app
+#La vista hace referencia a la lógica que se ejecuta cuando se hace una petición a la web
+#Se crea una vista para procesar la petición a la raiz del sitio web
+
 from django.shortcuts import render, HttpResponse
 
 html_base = """

@@ -11,6 +11,8 @@ django-admin startapp quickstart
 
 python manage.py startapp core  
 
+**3. Crear templates**  
+Crear una carpeta templates, dentro de la carpeta se crea otra carpeta con el nombre de la app (core)  
 
 **x. Migrations**  
 python manage.py makemigrations  
