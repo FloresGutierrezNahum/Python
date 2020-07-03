@@ -17,7 +17,7 @@ Crear una carpeta templates y dentro de la carpeta se crea otra carpeta con el n
 **x. Configurar runserver para correr recursos estáticos**  
 Crear una carpeta **static** en la la app  
 crear una carpeta con el nombre de la app **(core)** dentro de static  
-copiar en la carpeta todos los recursos del front
+copiar en la carpeta todos los recursos del front  
 
 **x. Migrations**  
 python manage.py makemigrations  
@@ -28,3 +28,6 @@ python manage.py createsuperuser
 
 **x. Correr servidor**  
 python manage.py runserver
+
+**x. Extensión de vscode**  
+Django template  
