@@ -11,6 +11,11 @@ django-admin startproject webpersonal
 django-admin startapp quickstart   
 
 python manage.py startapp core  
+python manage.py startapp portfolio   
+  
+python manage.py makemigrations portfolio **(verificar cambios en una app)**  
+python manage.py migrate portfolio **(aplicar cambios de una app)**  
+    
 
 **3. Crear templates**  
 Crear una carpeta templates y dentro de la carpeta se crea otra carpeta con el nombre de la app (core)  
