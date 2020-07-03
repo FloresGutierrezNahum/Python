@@ -8,7 +8,7 @@ pip install djangorestframework
 
 **2. Crear proyecto**  
 django-admin startproject tutorial  
-cd tutorial
+cd tutorial  
 django-admin startapp quickstart  
 
 

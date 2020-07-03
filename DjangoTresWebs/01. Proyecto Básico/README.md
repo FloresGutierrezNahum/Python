@@ -2,10 +2,14 @@
 https://www.udemy.com/course/curso-django-2-practico-desarrollo-web-python-3/learn/lecture/8627622#questions  
 
 **1. Librerias**  
- 
+pip install django==2.0.2  
+pip install pylint
 
 **2. Crear proyecto**  
-  
+django-admin startproject webpersonal  
+django-admin startapp quickstart   
+
+python manage.py startapp core  
 
 
 **x. Migrations**  
