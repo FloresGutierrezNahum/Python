@@ -5,7 +5,7 @@ from django.db import models
 #Clases enlazadas a la base de datos
 
 #Se crea una tabla
-class Project(models.Model):
+class Service(models.Model):
     title    = models.CharField(max_length=200, verbose_name="Titulo")
     subtitle = models.CharField(max_length=200, verbose_name="SubTitulo")
     content  = models.TextField(verbose_name="Contenido")
