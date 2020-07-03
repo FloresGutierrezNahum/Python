@@ -12,3 +12,9 @@ class Project(models.Model):
     image = models.ImageField()
     created = models.DateTimeField(auto_now_add=True)   #Se agrega al crear
     updated = models.DateTimeField(auto_now=True)       #Cambia con cada modificación
+
+    class Meta:         
+        #Subclase con los metadatos
+        verbose_name = 'proyecto'
+        verbose_name_plural = 'proyectos'
+        ordering = ['-created'] #Se ordena por fecha de creación (-) :desc
