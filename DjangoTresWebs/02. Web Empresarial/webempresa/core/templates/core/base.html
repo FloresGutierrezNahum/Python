@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Inicio | La Caffettiera</title>
+    <title>{% block title %}{% endblock %} | La Caffettiera</title>
 
     {% load static %}
 
@@ -64,8 +64,7 @@
       </div>
     </nav>
 
-    <!-- Contenido -->
-    {% block content  %} {% endblock %}
+    {% block content %} {% endblock %}
 
     <!-- Pié de página -->
     <footer class="footer text-faded text-center py-5">
