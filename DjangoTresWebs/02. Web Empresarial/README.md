@@ -75,4 +75,5 @@ todos los objetos **[posts = Post.objects.all()]** se pasa una lista con los dat
 ## Importante
 - Video 43 min 10:30 -> Uso de relaciones para obtener datos  - aprovecha la bidireccionalidad de las relaciones  
 - Video 48 ordenación personalizada   
+- Ultimo video: Permisos  
 
