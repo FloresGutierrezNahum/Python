@@ -50,12 +50,13 @@ base de datos (**en django estos objetos persistentes son llamados modelos**).
   
 - Al traducir una app se extiende la aplicación en "INSTALLED_APPS" **services ->  services.apps.ServicesConfig**  
 
-- **a)** crear modelo **(models.py)** 
-- **b)** verbose_name para la app **(apps.py)**
-- **c)** registrar app **(settings.py [social.apps.SocialConfig])**
-- **d)** makemigrations social, migrate social
-- **e)** crear adiministrador de prueba **social..(admin.py)**  
-
+**I. Considerar para las apps (social)**  
+**a)** crear modelo **(models.py)** 
+**b)** verbose_name para la app **(apps.py)**
+**c)** registrar app **(settings.py [social.apps.SocialConfig])**
+**d)** makemigrations social, migrate social
+**e)** crear adiministrador de prueba **social..(admin.py)**  
+  
 
 **E1. Mover un template de core -> app**  
 - blog: Crear carpeta **templates\blog**  y mover el .html del core a la carpeta  
