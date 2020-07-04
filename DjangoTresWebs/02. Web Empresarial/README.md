@@ -48,3 +48,8 @@ base de datos (**en django estos objetos persistentes son llamados modelos**).
   
 - Al traducir una app se extiende la aplicación en "INSTALLED_APPS" **services ->  services.apps.ServicesConfig**  
 
+** E. Mover un template de core -> app **  
+- blog: Crear carpeta **templates\blog**  y mover el .html del core a la carpeta  
+- Modificar las URLs: Se corta la url de blog que está en core a las **urls.py (se crea)** en blog | al copiar se tiene que dejar el path en la raiz **[path('', views.blog, name ="blog")]**  
+- Agregar el path de blog a las URLs de proyecto **path('blog/', include('blog.urls'))**  
+
