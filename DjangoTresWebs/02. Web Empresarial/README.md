@@ -37,7 +37,9 @@ python manage.py runserver
 
 **x. Extensión de vscode**  
 Django template  
-
+  
+  
+  
 **I. Info**  
 - ORM: Modelo Objeto Relacional, si se siguen las pautas de Django se pueden trabajar con objetos 
 mapeados en la base de datos, de manera que al crear instancias de una clase específica estas quedarán guardadas 
@@ -56,5 +58,7 @@ copiar se tiene que dejar el path en la raiz **[path('', views.blog, name ="blog
 
 **E2. Dinamizar el template**   
 - blog: en **views.py** importar los post **(from .models import Post)**, se obtienen 
-todos los objetos **[post = Post.objects.all()]** se pasa una lista con los datos obtenidos [return render(request, "blog/blog.html",**{'post':posts}**)]
+todos los objetos **[posts = Post.objects.all()]** se pasa una lista con los datos obtenidos [return render(request, "blog/blog.html",**{'posts':posts}**)]
+- blog.html: se usa un template tag for y se hace una llamada a la lista creada **{% for post in posts %} ...   {% endfor %}**  
+- blog.html: cambiar las partes estáticas por los datos que están en la lista  **{{post.published}}**, para las imagenes usar **"{{post.image.url}}"**  
 
