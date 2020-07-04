@@ -54,8 +54,9 @@ base de datos (**en django estos objetos persistentes son llamados modelos**).
 - **a)** crear modelo **(models.py)**   
 - **b)** verbose_name para la app **(apps.py)**   
 - **c)** registrar app **(settings.py [social.apps.SocialConfig])**   
-- **d)** makemigrations social, migrate social  
-- **e)** crear adiministrador de prueba **social..(admin.py)**   
+- **d)** crear adiministrador de prueba **social..(admin.py)** 
+- **e)** makemigrations social, migrate social  
+  
   
 
 **E1. Mover un template de core -> app**  
