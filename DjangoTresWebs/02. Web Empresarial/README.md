@@ -50,6 +50,13 @@ base de datos (**en django estos objetos persistentes son llamados modelos**).
   
 - Al traducir una app se extiende la aplicación en "INSTALLED_APPS" **services ->  services.apps.ServicesConfig**  
 
+- **a)** crear modelo **(models.py)** 
+- **b)** verbose_name para la app **(apps.py)**
+- **c)** registrar app **(settings.py [social.apps.SocialConfig])**
+- **d)** makemigrations social, migrate social
+- **e)** crear adiministrador de prueba **social..(admin.py)**  
+
+
 **E1. Mover un template de core -> app**  
 - blog: Crear carpeta **templates\blog**  y mover el .html del core a la carpeta  
 - Modificar las URLs: Se corta la url de blog que está en core a las **urls.py (se crea)** en blog | al 
@@ -64,3 +71,4 @@ todos los objetos **[posts = Post.objects.all()]** se pasa una lista con los dat
   
 ## Importante
 - Video 43 min 10:30 -> Uso de relaciones para obtener datos  - aprovecha la bidireccionalidad de las relaciones  
+
