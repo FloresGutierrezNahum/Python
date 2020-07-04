@@ -61,4 +61,6 @@ copiar se tiene que dejar el path en la raiz **[path('', views.blog, name ="blog
 todos los objetos **[posts = Post.objects.all()]** se pasa una lista con los datos obtenidos [return render(request, "blog/blog.html",**{'posts':posts}**)]
 - blog.html: se usa un template tag for y se hace una llamada a la lista creada **{% for post in posts %} ...   {% endfor %}**  
 - blog.html: cambiar las partes estáticas por los datos que están en la lista  **{{post.published}}**, para las imagenes usar **"{{post.image.url}}"**  
-
+  
+##Importante  
+- Video 43 min 10:30 -> Uso de relaciones para obtener datos  
