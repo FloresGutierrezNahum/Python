@@ -5,7 +5,7 @@ https://www.udemy.com/course/curso-django-2-practico-desarrollo-web-python-3/lea
 pip install django==2.0.2  
 pip install pylint
 pip install pillow
-pip install django-ckeditor
+pip install django-ckeditor=5.4.0
 
 **2. Crear proyecto**  
 django-admin startproject webempresa  
